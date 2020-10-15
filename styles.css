@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background-image: url("img/wallhaven-xlgoov_1920x1080.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.first{
+    margin: 0;
+    height: 100vh;
+}
+
+.intro{
+    margin-top: 200px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+
+h1,p{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.resume{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    
+    margin: 20px auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.resume a{
+    padding: 2px;
+}
+
+img{
+    width: 40px;
+}
+
+.head img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    border-radius: 50%;
+}
+
+.social{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social a{
+    padding: 10px;
+}
+
+.facts{
+    margin-top: 0%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1400px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .facts{
+        margin: 0 auto;
+        font-size: 20px;
+    }
+}
