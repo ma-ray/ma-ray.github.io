@@ -1,48 +1,89 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <title>Raymond's Website</title>
-</head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Raymond Ma</title>
+    </head>
 
-<body>
-    <div class="cover">
-        <div class="intro">
-            <h1>Patrick Star</h1>
-            <p>Some Dude | Bikini Bottom</p>
-        </div>
-    
-        <div class="head">
-            <img src="img/testhead.png" alt="">
-        </div>
-        
-        <div class="resume">
-            <a href="">Resume</a>
-        </div>
-        
-        <div class="social">
-            <a href="">
-                <img src="/img/linkedin.png" alt="">
-            </a>
-    
-            <a href="https://github.com/ma-ray">
-                <img src="/img/GitHub-Mark-64px.png" alt="">
-            </a>
-    
-            <a href="">
-                <img src="/img/gmail-512.png" alt="">
-            </a>
-        </div>
-    </div>
+    <body>
+        <section class="intro">
+            <h1>Raymond Ma</h1>
+            <p>Toronto | Ontario</p>
 
-    <div class="facts">
-        <ul>
-            <li>Second Year Computer Science Student @ the University of Toronto</li>
-            <li>Experience in Python and C</li>
-            <li>Loves to have fun and try new things</li>
-        </ul>
-    </div>
-    
-</body>
+            <a href="" class="resume">Resume</a>
+
+            <div class="social">
+                <a href="" target="_blank">
+                    <img src="/img/linkedin.png" alt="">
+                </a>
+        
+                <a href="https://github.com/ma-ray" target="_blank">
+                    <img src="/img/GitHub-Mark-64px.png" alt="">
+                </a>
+        
+                <a href="https://www.linkedin.com/in/raymond-ma-83ba38163/" target="_blank">
+                    <img src="/img/gmail-512.png" alt="">
+                </a>
+            </div>
+
+            <div class="facts">
+                <ul>
+                    <li>Second Year Computer Science Student @ the  <a class="uoft" href="https://www.utoronto.ca/" target="_blank"><b>University of Toronto</b></a></li>
+                    <li>Experience in Python, C, and Java <a href="https://scratch.mit.edu/projects/189054739/" class="secret" target="_blank">and Scratch</a></li>
+                    <li>Loves to have fun and try new things</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="projects">
+            <h2 class="subtitle">Projects 💡</h2>
+            <div class="card">
+                <h3 class="project-title">Mock Unix Shell</h3>
+                <h4 class="technologies">SVN, Java</h4>
+                <p class="description">
+                    Done in a group of 4 for the course CSCB07. 
+                    This project simulates the UNIX shell and many of the commands found in it (cd, ls, pwd, mv, cp, rm, mkdir, cat, curl, echo, man).
+                    The Agile SCRUM methodology was used to manage tasks of creating the shell.
+                    Design patterns were also implemented such as the Singleton design pattern. Unit testing of the shell was employed and done through JUnit 4.
+                </p>
+
+                <div class="links">
+                    <a href="https://repl.it/@RaymondMa/mock-shell#README.md" class="execute" target="_blank">➜</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 class="project-title">Monty Hall Simulator</h3>
+                <h4 class="technologies">React</h4>
+                <p class="description">This mini project simulates the well known Monty Hall problem. For learning React for the first time, I made use of the various states, props and components.</p>
+                
+                <div class="links">
+                    <a href="https://ma-ray.github.io/Monty-Hall-Simulator/" class="execute" target="_blank">➜</a>
+                    <a href="https://github.com/ma-ray/Monty-Hall-Simulator/" target="_blank">
+                        <img src="/img/GitHub-Mark-64px.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience">
+            <h2 class="subtitle">Experience</h2>
+
+            <div class="card">
+                <h3 class="project-title">High School Math Tutor</h3>
+                <h4 class="technologies">Mary Ward C.S.S, Toronto, ON</h4>
+                <ul style="margin-top: 0;">
+                    <li>Assisted high school students after with their math homework.</li>
+                    <li>Used strong commication skills to explain complex math concepts to students struggling with their work.</li>
+                    <li>Used problem solving skills to help student with their homework questions.</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2021</p>
+        </footer>
+    </body>
 </html>
