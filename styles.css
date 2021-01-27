@@ -65,8 +65,9 @@ h1 {
     border: solid 2px black;
 }
 
-.uoft {
+.p-link {
     text-decoration: none;
+    transition: background-color 0.75s, color 0.5s;
 }
 
 .subtitle {
@@ -129,8 +130,8 @@ h1 {
     width: 10px;
   }
   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: black;
   }
 
@@ -144,6 +145,11 @@ footer {
     text-decoration: none;
 }
 
-.uoft,.execute:visited{
+.p-link,.execute:visited{
     color: black;
+}
+
+.p-link:hover {
+    background-color: black;
+    color: white;
 }
