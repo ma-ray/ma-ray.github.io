@@ -6,33 +6,50 @@
         <link rel="stylesheet" href="styles.css">
         <title>Raymond Ma</title>
     </head>
-
+    
     <body>
         <section class="intro">
             <h1>Raymond Ma</h1>
             <p>Toronto | Ontario</p>
-
+            
             <a href="https://drive.google.com/file/d/1XmpJi-VWgT07c8eSPsEMwTY8g-FoWzK0/view?usp=sharing" target="_blank" class="resume">Resume</a>
-
+            
             <div class="social">
                 <a href="https://www.linkedin.com/in/raymond-ma-83ba38163/" target="_blank">
                     <img src="/img/linkedin.png" alt="">
                 </a>
-        
+                
                 <a href="https://github.com/ma-ray" target="_blank">
                     <img src="/img/GitHub-Mark-64px.png" alt="">
                 </a>
-        
+                
                 <a href="mailto:ray.ma@mail.utoronto.ca" target="_blank">
                     <img src="/img/gmail-512.png" alt="">
                 </a>
             </div>
-
+            
             <div class="facts">
                 <ul>
-                    <li>Second Year Computer Science Student @ the  <a class="p-link" href="https://www.utoronto.ca/" target="_blank"><b>University of Toronto</b></a></li>
+                    <li>3rd Year Computer Science Student @ the  <a class="p-link" href="https://www.utoronto.ca/" target="_blank"><b>University of Toronto</b></a></li>
                     <li>Experience in Python, C, and Java <a href="https://scratch.mit.edu/projects/189054739/" class="secret" target="_blank">and Scratch</a></li>
                     <li>Currently learning ⚛️React and some Node.js</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="experience">
+            <h2 class="subtitle">Experience</h2>
+        
+            <div class="card">
+                <h3 class="card-title">Backend Software Engineer</h3>
+                <div class="job-info">
+                    <h4 class="card-subtitle">Playfair Technologies</h4>
+                    <h4 class="card-subtitle">May 2021 - Aug 2021</h4>
+                </div>
+                <ul style="margin-top: 0;">
+                    <li>Assisted in the implementation of the microservices archietecture using Scala to have a responsive.</li>
+                    <li>Implemented REST APIs that queries the PostgresSQL database and other internal services to provide social network information for frontend interfaces.</li>
+                    <li>Created email and SMS message dispatchers for user verification and registration with RabbitMQ.</li>
                 </ul>
             </div>
         </section>
@@ -41,10 +58,30 @@
             <h2 class="subtitle">Projects 💡</h2>
 
             <div class="card">
-                <h3 class="project-title">Options Visualizer <span style="color:red">(In development)</span></h3>
-                <h4 class="technologies">React</h4>
+                <h3 class="card-title">Ampact</span></h3>
+                <h4 class="card-subtitle">React, MongoDB, Express, Node.js</h4>
                 <p class="description" style="margin-bottom: 10px;">
-                    A responsive website to help visualize finanical portfolios.
+                    A community + e-learning platform which features user profiles, group profiles, a discussion board,
+                    curated video catalogue, assignment submission and marking, direct messaging, and synced calendar features.
+                    Created for the course 
+                    <a href="https://utsc.calendar.utoronto.ca/course/cscc01h3" target="_blank" class="p-link"><b>CSCC01</b></a> to support the
+                    <a href="https://www.africanimpact.ca/the-african-impact-challenge" target="_blank" class="p-link"><b>African Impact Challenge</b></a>
+                    which aims to educate young entrepreneurs in bringing their ideas to life. Done in a group of 6, we followed the Agile SCRUM methodology
+                    and Git flow procedures to maximize productivity and minimize future problems.
+                </p>
+                
+                <div class="links">
+                    <a href="https://github.com/Project-Ampact/project-insert-name-here" target="_blank">
+                        <img src="/img/GitHub-Mark-64px.png" alt="">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3 class="card-title">Options Visualizer <span style="color:red">(In development)</span></h3>
+                <h4 class="card-subtitle">React</h4>
+                <p class="description" style="margin-bottom: 10px;">
+                    A responsive website to help visualize financial portfolios.
                 </p>
                 
                 <div class="links">
@@ -55,8 +92,8 @@
             </div>
 
             <div class="card">
-                <h3 class="project-title">Random Games Bot</h3>
-                <h4 class="technologies">Discord.js, Javascript</h4>
+                <h3 class="card-title">Random Games Bot</h3>
+                <h4 class="card-subtitle">Discord.js, Javascript</h4>
                 <p class="description">A games bot to pass the time. Made use of API calls and asynchronous events.</p>
                     <ul style="margin-top: 0;">
                         <li><b>Hangman:</b> Guess the word before the stick figure gets drawn. 
@@ -72,9 +109,9 @@
             </div>
 
             <div class="card">
-                <h3 class="project-title">Monty Hall Simulator 🚪</h3>
-                <h4 class="technologies">React</h4>
-                <p class="description">This mini project simulates the well known Monty Hall problem. For learning React for the first time, I made use of the various states, props and components.</p>
+                <h3 class="card-title">Monty Hall Simulator 🚪</h3>
+                <h4 class="card-subtitle">React</h4>
+                <p class="description">This mini project simulates the well known Monty Hall problem. Using React for the first time, I made use of the various states, props and components.</p>
                 
                 <div class="links">
                     <a href="https://ma-ray.github.io/Monty-Hall-Simulator/" class="execute" target="_blank">➜</a>
@@ -85,8 +122,8 @@
             </div>
 
             <div class="card">
-                <h3 class="project-title">Mock Unix Shell</h3>
-                <h4 class="technologies">SVN, Java</h4>
+                <h3 class="card-title">Mock Unix Shell</h3>
+                <h4 class="card-subtitle">SVN, Java</h4>
                 <p class="description">
                     Done in a group of 4 for the course <a class="p-link" href="https://utsc.calendar.utoronto.ca/course/cscb07h3" target="_blank"><b>CSCB07</b></a>. 
                     This project simulates the UNIX shell and many of the commands found in it (cd, ls, pwd, mv, cp, rm, mkdir, cat, curl, echo, man).
@@ -100,8 +137,8 @@
             </div>
 
             <div class="card">
-                <h3 class="project-title">Going to MARS 🚀</h3>
-                <h4 class="technologies">MIPS Assembly</h4>
+                <h3 class="card-title">Going to MARS 🚀</h3>
+                <h4 class="card-subtitle">MIPS Assembly</h4>
                 <p class="description" style="margin-bottom: 10px;">
                     A shoot-em-up video game written in MIPS Assembly for the <a class="p-link" href="https://utsc.calendar.utoronto.ca/course/cscb58h3" target="_blank"><b>CSCB58</b></a> Final Project.
                     Using the keyboard, the player can move the ship avoiding asteroids in the attempt of reaching MARS!
@@ -117,19 +154,6 @@
             </div>
         </section>
 
-        <section class="experience">
-            <h2 class="subtitle">Experience</h2>
-
-            <div class="card">
-                <h3 class="project-title">High School Math Tutor</h3>
-                <h4 class="technologies">Mary Ward C.S.S, Toronto, ON</h4>
-                <ul style="margin-top: 0;">
-                    <li>Assisted high school students after with their math homework.</li>
-                    <li>Used strong commication skills to explain complex math concepts to students struggling with their work.</li>
-                    <li>Used problem solving skills to help student with their homework questions.</li>
-                </ul>
-            </div>
-        </section>
 
         <footer>
             <p>© 2021</p>
