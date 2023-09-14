@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: mediumturquoise;
+    background-color: cornflowerblue;
     width: 60%;
     margin: auto;
 }
@@ -57,7 +57,7 @@ h1 {
     padding: 10px
 }
 
-.facts{
+.facts {
     font-size: 20px;
     color: black;
     background-color: white;
