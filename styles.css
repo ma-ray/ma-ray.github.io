@@ -1,161 +1,170 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter&family=Neuton&family=Pixelify+Sans&family=Poppins&family=Racing+Sans+One&family=Sometype+Mono&family=Source+Code+Pro&display=swap');
+:root {
+    --bg-color: #1E1E1E;
+    --secondary: #191A19;
+}
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: cornflowerblue;
-    width: 60%;
-    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
 }
 
-img {
-    width: 40px;
+@media only screen and (max-width: 1200px), screen and (max-height: 500px) {
+    body {
+        margin: 20%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+@media only screen and (min-width: 1200px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
 }
 
-h1 {
-    font-size: 40px;
-    margin-bottom: 1%;
-}
-
-.intro p {
-    font-size: 20px;
-    margin: 1%;
-    margin-bottom: 1.5em;
+.home-card {
+    width: 50em;
+    background-color: var(--secondary);
+    border: white 5px solid;
+    border-radius: 30px;
+    padding: 4vmin;
+    color: white;
 }
 
 .intro {
-    margin-top: 5em;
-    text-align: center;
+    margin: 0;
 }
 
-.resume {
-    font-family: 'Roboto', sans-serif; /*make root later? */
-    text-align: center;
-    text-decoration: none;
-    background-color: black;
+.name-part {
+    margin: 0;
+    font-size: 64px;
     font-weight: 700;
-    font-size: 20px; /*1.5rem*/
-    padding: 10px 15px;
-    border: 1px solid black;
-    color: white;
-
-    transition: background-color 0.75s, color 0.5s;
+    color: #00C2DD;
 }
 
-.resume:hover {
-    background-color: white;
-    color: black;
-}
-
-.social{
-    margin: 1.5rem;
+.nav-part {
     display: flex;
-    justify-content: center;
+    align-items: baseline;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 1em;
 }
 
-.social a {
-    padding: 10px
+.contact-part {
+    align-items: flex-start;
 }
 
-.facts {
+h3 {
+    margin: 0;
+}
+
+.social {
+    height: 36px;
+    width: 36px;
+}
+
+.uoft {
+    font-family: 'Neuton', serif;
     font-size: 20px;
-    color: black;
-    background-color: white;
-    text-align: left;
-    border: solid 2px black;
 }
 
-.p-link {
-    text-decoration: none;
-    transition: background-color 0.75s, color 0.5s;
+.outside {
+    font-family: 'Indie Flower', cursive;
+    color: #4EE794;
 }
 
-.subtitle {
-    font-family: 'Roboto', sans-serif;
-    padding: 10px 15px;
-    color: white;
-    background-color: black;
-    width: fit-content;
-    border: 1px solid black;
-
-    transition: background-color 0.75s, color 0.5s;
+.videogames {
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #ffff00;
 }
 
-.subtitle:hover {
-    background-color: white;
-    color: black;
+.motorsports {
+    font-family: 'Racing Sans One', sans-serif;
+    color: #e10600;
 }
 
-/* CSS CARD */
-.card {
-    margin: 10px auto;
-    padding: 5px 15px;
-    border: solid 2px black;
-    background-color: white;
-
-    transition: border 1s;
+.python {
+    color: #FFF500;
 }
 
-.card-title {
-    margin-bottom: 0;
+.java {
+    color: #F89917;
 }
 
-.card-subtitle {
-    color: grey;
-    margin: 0;
+.c {
+    color: #AABBCE;
 }
 
-.description {
-    margin: 0;
+.scala {
+    color: #DF311E;
 }
 
-.links {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.kotlin {
+    color: #A929EF;
 }
 
-.execute {
-    font-size: 50px;
-    text-decoration: none;
+.sql {
+    font-family: 'Sometype Mono', monospace;
 }
 
-.card:hover {
-    border: solid 2px gray;
+.typescript {
+    color: #2D79C7;
 }
 
-/* JOBS */
-.job-info {
-    display: flex;
-    justify-content: space-between;
+.html {
+    color: #E54C21;
 }
 
-/* SCROLLBAR */
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: black;
-  }
-
-footer {
-    padding: 2%;
-    text-align: center;
+.css {
+    color: #214CE5;
 }
 
-.secret {
-    color: white;
-    text-decoration: none;
+.react {
+    color: #017FA5;
 }
 
-.p-link,.execute:visited{
-    color: black;
+.docker {
+    color: #1D63ED;
 }
 
-.p-link:hover {
-    background-color: black;
-    color: white;
+.node {
+    color: #68A063;
+}
+
+.tailwind {
+    color: #38BDF8;
+}
+
+.graphql {
+    color: #E535AB;
+}
+
+.rabbitmq {
+    color: #FF6600;
+}
+
+.firebase {
+    color: #FECA2C;
+}
+
+.mongodb {
+    color: #006849;
+}
+
+.terraform {
+    color: #5C4DE6;
+}
+
+.gcp {
+    color: #5f6368;
+}
+
+.aws {
+    color: #ec912d;
 }
