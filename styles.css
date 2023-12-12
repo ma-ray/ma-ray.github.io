@@ -1,170 +1,174 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter&family=Neuton&family=Pixelify+Sans&family=Poppins&family=Racing+Sans+One&family=Sometype+Mono&family=Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter&family=Neuton&family=Pixelify+Sans&family=Poppins&family=Racing+Sans+One&family=Sometype+Mono&family=Source+Code+Pro&display=swap");
 :root {
-    --bg-color: #1E1E1E;
-    --secondary: #191A19;
+  --bg-color: #1e1e1e;
+  --secondary: #191a19;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: var(--bg-color);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  background-image: url("./assets/background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media only screen and (max-width: 1200px), screen and (max-height: 500px) {
-    body {
-        margin: 20%;
-        display: flex;
-        justify-content: center;
-    }
+  body {
+    margin: 20%;
+    display: flex;
+    justify-content: center;
   }
+}
 
 @media only screen and (min-width: 1200px) {
-    body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-    }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
 }
 
 .home-card {
-    width: 50em;
-    background-color: var(--secondary);
-    border: white 5px solid;
-    border-radius: 30px;
-    padding: 4vmin;
-    color: white;
+  width: 50em;
+  background-color: var(--secondary);
+  border: white 5px solid;
+  border-radius: 30px;
+  padding: 4vmin;
+  color: white;
 }
 
 .intro {
-    margin: 0;
+  margin: 0;
 }
 
 .name-part {
-    margin: 0;
-    font-size: 64px;
-    font-weight: 700;
-    color: #00C2DD;
+  margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+  color: #00c2dd;
 }
 
 .nav-part {
-    display: flex;
-    align-items: baseline;
-    gap: 12px;
-    flex-wrap: wrap;
-    margin-top: 1em;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 1em;
 }
 
 .contact-part {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 
 h3 {
-    margin: 0;
+  margin: 0;
 }
 
 .social {
-    height: 36px;
-    width: 36px;
+  height: 36px;
+  width: 36px;
 }
 
 .uoft {
-    font-family: 'Neuton', serif;
-    font-size: 20px;
+  font-family: "Neuton", serif;
+  font-size: 20px;
 }
 
 .outside {
-    font-family: 'Indie Flower', cursive;
-    color: #4EE794;
+  font-family: "Indie Flower", cursive;
+  color: #4ee794;
 }
 
 .videogames {
-    font-family: 'Pixelify Sans', sans-serif;
-    color: #ffff00;
+  font-family: "Pixelify Sans", sans-serif;
+  color: #ffff00;
 }
 
 .motorsports {
-    font-family: 'Racing Sans One', sans-serif;
-    color: #e10600;
+  font-family: "Racing Sans One", sans-serif;
+  color: #e10600;
 }
 
 .python {
-    color: #FFF500;
+  color: #fff500;
 }
 
 .java {
-    color: #F89917;
+  color: #f89917;
 }
 
 .c {
-    color: #AABBCE;
+  color: #aabbce;
 }
 
 .scala {
-    color: #DF311E;
+  color: #df311e;
 }
 
 .kotlin {
-    color: #A929EF;
+  color: #a929ef;
 }
 
 .sql {
-    font-family: 'Sometype Mono', monospace;
+  font-family: "Sometype Mono", monospace;
 }
 
 .typescript {
-    color: #2D79C7;
+  color: #2d79c7;
 }
 
 .html {
-    color: #E54C21;
+  color: #e54c21;
 }
 
 .css {
-    color: #214CE5;
+  color: #214ce5;
 }
 
 .react {
-    color: #017FA5;
+  color: #017fa5;
 }
 
 .docker {
-    color: #1D63ED;
+  color: #1d63ed;
 }
 
 .node {
-    color: #68A063;
+  color: #68a063;
 }
 
 .tailwind {
-    color: #38BDF8;
+  color: #38bdf8;
 }
 
 .graphql {
-    color: #E535AB;
+  color: #e535ab;
 }
 
 .rabbitmq {
-    color: #FF6600;
+  color: #ff6600;
 }
 
 .firebase {
-    color: #FECA2C;
+  color: #feca2c;
 }
 
 .mongodb {
-    color: #006849;
+  color: #006849;
 }
 
 .terraform {
-    color: #5C4DE6;
+  color: #5c4de6;
 }
 
 .gcp {
-    color: #5f6368;
+  color: #5f6368;
 }
 
 .aws {
-    color: #ec912d;
+  color: #ec912d;
 }
